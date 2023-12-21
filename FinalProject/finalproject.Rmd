@@ -10,15 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-
-
 Select a website that you want to scrape 300 reviews. 
-You can select 1 product from Amazon
-Or you can select 1 movie
-Or you can select reviews from SkyTrax https://www.airlinequality.com/review-pages/a-z-airline-reviews/ ;
-the reviews are for the different airlines, but you can only select 1 airline
-After scraping 300 reviews, have a basic sentiment analysis with your own analysis and data visualization. each visualization shall have its own description.
-
 ```{r}
 
 library(dplyr)
@@ -65,7 +57,6 @@ for(counterrr in 1:12){
                       ratings = rating_ratings))
 
 }
-
-reviews
+reviews[1:100,1:5]
 
 ```
