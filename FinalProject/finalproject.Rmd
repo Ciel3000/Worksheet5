@@ -59,4 +59,7 @@ for(counterrr in 1:12){
 }
 reviews[1:100,1:5]
 
+plot(reviews)
+
+
 ```
