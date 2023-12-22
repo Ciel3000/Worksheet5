@@ -57,9 +57,37 @@ for(counterrr in 1:12){
                       ratings = rating_ratings))
 
 }
+
+```
+
+
+printing 100 reviews out of 300 because I cant print all 300.
+```{r}
+
 reviews[1:100,1:5]
 
-plot(reviews)
+```
 
+
+```{r}
+ratingsszz <- reviews$ratings
+
+ratingzznum <- as.factor(ratingsszz)
+
+ratingzznum2 <- as.numeric(ratingzznum)
+
+ratings_mean <- mean(ratingzznum2)
+
+ratings_mean
+
+value <- ratings_mean
+
+total <- 10
+
+proportion <- value / total
+
+barplot(proportion, names.arg = "Proportion", col = "skyblue", main = "Proportion out of 10", ylab = "Proportion", ylim = c(0, 1))
+
+#As we observe the mean from our ratings is 4.915557. Over all the 300 revies we took we got a 4.9 ratings out of 10 which is low and negative. 
 
 ```
