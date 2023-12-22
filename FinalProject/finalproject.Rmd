@@ -1,6 +1,6 @@
 ---
 title: "Final Project"
-author: "Quillo, Carl Louie A."
+author: "Bansara,Gallo,Olivo,Quillo"
 date: "2023-12-21"
 output: pdf_document
 ---
